@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* my */
+
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-top: 24px;
+}
+.title_under {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 20px 0 10px 0;
+}
+
+body {
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    border: 15px solid white;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto','Helvetica Neue', Arial, sans-serif;
+    
+}
+.main {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.fig {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img {
+    padding: 20px;
+    background-color:  white;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.img_title {
+    padding: 5px 0 0 0;
+    font-size: 16px;
+}
+
+.main_title {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+    margin: 30px 0;
+}
+
+.form {
+    width: auto;
+    padding: 0 360px;
+}
+
+ul {
+    list-style-type: square;
+}
+li {
+    text-align: left;
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.quot {
+    text-align: left;
+    width: auto;
+    font-style: italic;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.line {
+    padding: 5px 0; 
+}
+
+.end {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
