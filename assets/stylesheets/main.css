@@ -77,13 +77,12 @@ body {
     display: block;
 }
 
-.fig {
-    text-align: center;
-    display: block;
+
+.image_center {
     max-width: 100%;
-    max-height: 100%;
 }
-.img {
+
+.img_with_title {
     padding: 20px;
     background-color:  white;
     width: auto;
